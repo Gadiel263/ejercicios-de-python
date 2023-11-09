@@ -1,0 +1,7 @@
+nombre=str(input('inserte el nombre: '))
+apellido=str(input('inserte el apellido: '))
+dia=int(input('inserte el dia de nacimiento: '))
+mes=int(input('inserte el mes de nacimiento: '))
+año=int(input('inserte el año de nacimiento: '))
+pasword=nombre[0]+apellido[0]+str(año)
+print ('Su contraseña es: '+pasword)
